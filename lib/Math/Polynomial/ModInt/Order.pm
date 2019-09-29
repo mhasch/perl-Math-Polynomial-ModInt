@@ -307,12 +307,12 @@ but it operates on Math::Polynomial::ModInt objects.
 =head1 BUGS AND LIMITATIONS
 
 The singleton variables this module provides must be treated as read-only.
-Sume future release will enforce this if we find a portable way to do that.
+Some future release will enforce this if we find a portable way to do that.
 Meanwhile, just don't mess with them.
 
 Other bug reports and suggestions are always welcome E<8212>
 please submit them as lined out in the distribution's main module,
-L<Math::Polynomial::ModInt|Math::Polynomial::ModInt>.
+L<Math::Polynomial::ModInt>.
 
 =head1 SEE ALSO
 

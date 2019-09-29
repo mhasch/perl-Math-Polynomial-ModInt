@@ -286,8 +286,8 @@ Invalid operations will yield exceptions from Math::ModInt.
 
 Additionally, a number of comparison operators are defined for modular
 integer polynomials only.  Currently, these are implemented in the
-L<Math::Polynomial::ModInt::Order|Math::Polynomial::ModInt::Order> helper
-module rather than as overloaded operators, for reasons explained there.
+L<Math::Polynomial::ModInt::Order> helper module rather than as overloaded
+operators, for reasons explained there.
 
 =head2 Property Accessors
 
@@ -300,7 +300,7 @@ modular integer polynomials are defined.
 =item I<index>
 
 C<$p-E<gt>index> calculates the index of a modular integer polynomial
-C<$p>, as defined above.  Cf. L<#from_index>.
+C<$p>, as defined above.  Cf. L</from_index>.
 
 Note that the index grows exponentially with the degree of the polynomial
 and is thus represented as a Math::BigInt object.
@@ -358,8 +358,8 @@ yet more string representations of polynomials, if so desired.
 =head1 DIAGNOSTICS
 
 Dealing with Math::ModInt objects can generally trigger exceptions from
-L<Math::ModInt::Event|Math::ModInt::Event>.  Mixing different moduli or
-dividing non-coprime elements could be causes.
+L<Math::ModInt::Event>.  Mixing different moduli or dividing non-coprime
+elements could be causes.
 
 Other error conditions, like using non-integers or non-objects where they
 would be expected, are not rigorously checked and may yield unreliable
@@ -389,7 +389,7 @@ The minimal required perl version is 5.6.
 
 Bug reports and suggestions are always welcome
 E<8212> please submit them through the CPAN RT,
-E<lt>http://rt.cpan.org/NoAuth/Bugs.html?Dist=Math-Polynomial-ModIntE<gt>.
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Math-Polynomial-ModInt>.
 
 =head1 SEE ALSO
 
