@@ -60,11 +60,11 @@ WriteMakefile(
                 web  => "https://github.com/mhasch/perl-$DN",
                 type => 'git',
             },
-            prereqs => {
-                runtime => {
-                    recommends => {
-                        'Math::BigInt::GMP' => 0,
-                    },
+        },
+        prereqs => {
+            runtime => {
+                recommends => {
+                    'Math::BigInt::GMP' => 0,
                 },
             },
         },
