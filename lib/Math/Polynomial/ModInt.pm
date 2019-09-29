@@ -27,7 +27,7 @@ BEGIN {
     require Exporter;
     our @ISA       = qw(Math::Polynomial Exporter);
     our @EXPORT_OK = qw(modpoly);
-    our $VERSION   = '0.002';
+    our $VERSION   = '0.003';
 }
 
 my $default_string_config = {
@@ -172,7 +172,7 @@ Math::Polynomial::ModInt - univariate polynomials over modular integers
 
 =head1 VERSION
 
-This documentation refers to version 0.002 of Math::Polynomial::ModInt.
+This documentation refers to version 0.003 of Math::Polynomial::ModInt.
 
 =head1 SYNOPSIS
 
