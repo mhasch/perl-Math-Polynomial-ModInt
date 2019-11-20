@@ -315,10 +315,6 @@ the modular integer polynomial C<$p>.
 C<$p-E<gt>number_of_terms> returns the number of non-zero
 coefficients of the modular integer polynomial C<$p>.
 
-This method should actually better be provided by the parent class,
-as the property is not quite specific to modular integer coefficients.
-Expect this to be done in an upcoming Math::Polynomial release.
-
 =back
 
 =head2 Conversions
