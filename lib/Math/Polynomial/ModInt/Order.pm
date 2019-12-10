@@ -8,7 +8,7 @@ BEGIN {
     our @ISA = qw(Exporter);
     our @EXPORT_OK = qw($BY_INDEX $SPARSE $CONWAY);
     our %EXPORT_TAGS = ( all => \@EXPORT_OK );
-    our $VERSION = '0.003';
+    our $VERSION = '0.004';
 }
 
 sub cmp { $_[0]->(@_[1, 2])      }
@@ -158,7 +158,7 @@ Math::Polynomial::ModInt::Order - order relations on ModInt polynomials
 
 =head1 VERSION
 
-This documentation refers to version 0.003 of
+This documentation refers to version 0.004 of
 Math::Polynomial::ModInt::Order.
 
 =head1 SYNOPSIS

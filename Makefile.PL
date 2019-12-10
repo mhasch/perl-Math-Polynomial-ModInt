@@ -40,7 +40,7 @@ WriteMakefile(
     PREREQ_PM => {
         'Carp'              => '0',
         'Math::BigInt'      => '0',
-        'Math::ModInt'      => '0.011',
+        'Math::ModInt'      => '0.012',
         'Math::Polynomial'  => '1.015',
     },
     SIGN => 1,
