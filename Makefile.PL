@@ -24,7 +24,7 @@ my %versions = map {
 
 WriteMakefile(
     NAME             => 'Math::Polynomial::ModInt',
-    AUTHOR           => q{Martin Becker <becker-cpan-mp (at) cozap.com>},
+    AUTHOR           => 'Martin Becker <becker-cpan-mp (at) cozap.com>',
     VERSION_FROM     => 'lib/Math/Polynomial/ModInt.pm',
     ABSTRACT_FROM    => 'lib/Math/Polynomial/ModInt.pm',
     LICENSE          => 'artistic_2',
